@@ -58,7 +58,7 @@ The input data follows a simple JSON format:
 
 - **Training**: [MALLS-v0.1](https://huggingface.co/datasets/yuan-yang/MALLS-v0/blob/main/MALLS-v0.1-train.json) (27K pairs)
 - **Evaluation**: [FOLIO parsed](https://huggingface.co/datasets/Andenis-Bu/FOL-LLaMA-Inference/blob/main/folio_parsed.json) (1K pairs)
-
+- **Infrence** [Model predictions](https://huggingface.co/datasets/Andenis-Bu/FOL-LLaMA-Inference/tree/main)
 ---
 
 ## Training
