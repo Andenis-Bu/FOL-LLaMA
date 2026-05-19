@@ -1,0 +1,67 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.env/
+
+# Conda
+conda-meta/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test/coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Project-specific
+# Generated predictions / runs
+run_infrence_test.sh
+run_training_test.sh
+datasets/
+outputs/
+adapters/
+logs/
+
+# Local secrets (API tokens, etc.)
+token.json
+
+# Common ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Hugging Face / Transformers caches (optional but usually not committed)
+.hf_cache/
+
+# If you use wandb locally
+wandb/
